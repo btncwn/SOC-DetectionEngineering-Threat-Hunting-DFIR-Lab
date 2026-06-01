@@ -1,41 +1,44 @@
-# Investigation 01 – Malicious Domain Analysis
+# Investigation 01 - Malicious Domain Analysis
 
 ## Scenario
 
-To be completed.
+This investigation focuses on identifying and analyzing suspicious domain activity using the BOTS v3 dataset in Splunk.
+
+The objective is to detect unusual DNS or HTTP activity, extract potential domain-based indicators of compromise, enrich the indicator using threat intelligence sources, and document the investigation as a SOC analyst case study.
 
 ---
 
-## Detection
+## Data Source
 
-To be completed.
-
----
-
-## Investigation Steps
-
-To be completed.
+- Splunk Index: `botsv3`
+- Primary Logs: DNS and HTTP traffic
+- Supporting Tools: MISP, OSINT sources
 
 ---
 
-## Findings
+## Investigation Objective
 
-To be completed.
-
----
-
-## Threat Intelligence Enrichment
-
-To be completed.
-
----
-
-## MITRE ATT&CK Mapping
-
-To be completed.
+- Identify suspicious domain activity
+- Validate the domain across available Splunk events
+- Identify affected hosts
+- Enrich the domain using threat intelligence
+- Map activity to MITRE ATT&CK
+- Produce an analyst assessment
 
 ---
 
-## Analyst Assessment
+## Investigation Status
 
-To be completed.
+Status: In Progress
+
+---
+
+## Evidence
+
+Screenshots and investigation evidence will be added during analysis.
+
+---
+
+## Analyst Notes
+
+To be completed during investigation.
