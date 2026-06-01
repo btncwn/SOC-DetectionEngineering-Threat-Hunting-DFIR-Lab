@@ -291,7 +291,6 @@ Examples:
 | Discovery         | T1087 Account Discovery               |
 | Execution         | T1059 PowerShell                      |
 | Execution         | T1059.003 Windows Command Shell       |
-| Credential Access | T1003 Credential Dumping (Simulation) |
 | Lateral Movement  | T1021 SMB                             |
 | Lateral Movement  | T1569 Service Execution               |
 
