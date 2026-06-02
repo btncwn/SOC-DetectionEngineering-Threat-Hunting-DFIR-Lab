@@ -21,7 +21,15 @@ My goal is to develop practical security skills through hands-on projects, lab e
 * MITRE ATT&CK
 * MISP
 
-
 ## Professional Development
 
-Current certifications and ongoing training are focused on defensive security, detection engineering, and incident response operations.
+Current certifications and ongoing training are focused on defensive security, detection engineering, threat hunting, and incident response operations.
+
+## Future Goals
+
+* Advanced Incident Response
+* Cloud Security
+* Security Automation at Scale
+* Detection Engineering Leadership
+* SOC and DFIR Specialization
+
