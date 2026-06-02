@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Certifications](certifications.md) | [Projects](projects.md)
+
+---
 # Turhan Acar
 
 ## SOC Analyst | Threat Hunter | Detection Engineering | DFIR
