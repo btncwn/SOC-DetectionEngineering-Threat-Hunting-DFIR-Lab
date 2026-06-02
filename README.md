@@ -44,29 +44,6 @@ The vulnerability was subsequently validated through SMB enumeration activities,
 
 ---
 
-## Attack Flow
-
-```text
-1. Vulnerability Assessment
-           ↓
-2. Attack Simulation
-           ↓
-3. Endpoint Telemetry Collection
-           ↓
-4. SIEM Ingestion
-           ↓
-5. Threat Hunting
-           ↓
-6. MITRE ATT&CK Mapping
-           ↓
-7. Threat Intelligence Enrichment
-           ↓
-8. Digital Forensics & Incident Response
-           ↓
-9. Incident Reporting
-```
-
----
 
 ## Technologies Used
 
@@ -87,17 +64,18 @@ The vulnerability was subsequently validated through SMB enumeration activities,
 
 ```text
 SOC-Detection-Engineering-Threat-Hunting-DFIR-Lab
-
-├── 01-lab-architecture
-├── 02-vulnerability-assessment
-├── 03-attack-simulation
-├── 04-endpoint-telemetry
-├── 05-splunk-ingestion
-├── 06-threat-hunting
-├── 07-mitre-attack-mapping
-├── 08-threat-intelligence
-├── 09-dfir
-├── 10-incident-report
+01-lab-architecture
+02-vulnerability-assessment
+03-attack-simulation
+04-endpoint-telemetry
+05-splunk-ingestion
+06-threat-hunting
+07-mitre-attack-mapping
+08-threat-intelligence
+09-dfir
+10-soc-investigations
+11-detection-engineering-sigma
+12-soar-automation
 ```
 
 ---
