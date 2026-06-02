@@ -14,13 +14,13 @@ My goal is to develop practical security skills through hands-on projects, lab e
 
 ## Current Focus Areas
 
-* Splunk Enterprise
-* Sysmon
-* MITRE ATT&CK
-* MISP
+* Incident Response
+* Threat Hunting
 * Sigma Detection Engineering
 * SOAR Automation
-* Incident Response
+* MITRE ATT&CK
+* MISP
+
 
 ## Professional Development
 
