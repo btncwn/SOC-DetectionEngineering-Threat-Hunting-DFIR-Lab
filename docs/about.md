@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Certifications](certifications.md) | [Projects](projects.md)
+
+---
 # About Me
 
 ## Turhan Acar
