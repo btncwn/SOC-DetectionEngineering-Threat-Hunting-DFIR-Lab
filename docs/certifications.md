@@ -12,7 +12,6 @@
 
 ## Future Goals
 
-* Microsoft Sentinel
+* Advanced Incident Response
 * Detection Engineering
 * SOAR Automation
-* Advanced Incident Response
