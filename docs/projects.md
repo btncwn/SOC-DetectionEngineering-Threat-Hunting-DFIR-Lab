@@ -6,7 +6,21 @@
 
 This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, DFIR, and Threat Intelligence lab environment.
 
-The lab is built using Splunk Enterprise, Sysmon, Windows 11, Kali Linux, Nessus, MISP, MITRE ATT&CK, and the BOTSv3 dataset.
+# Core Technologies
+
+* Splunk Enterprise
+* Sysmon
+* Windows 7
+* Kali Linux
+* Nessus
+* MISP
+* MITRE ATT&CK
+* Sigma
+* PySigma
+* BOTSv3 Dataset
+* SOAR Automation
+* Threat Intelligence Analysis
+* Detection Engineering
 
 ---
 
@@ -160,21 +174,7 @@ Planned projects include:
 
 ---
 
-# Core Technologies
 
-* Splunk Enterprise
-* Sysmon
-* Windows 7
-* Kali Linux
-* Nessus
-* MISP
-* MITRE ATT&CK
-* Sigma
-* PySigma
-* BOTSv3 Dataset
-* SOAR Automation
-* Threat Intelligence Analysis
-* Detection Engineering
 
 
 ```
