@@ -1,0 +1,40 @@
+title: Network Enumeration via Command Line
+
+id: d7f3a2b1-9c4e-4d8f-8a6b-2e5f7a9c1d33
+
+status: experimental
+
+description: Detects command-line network enumeration activity associated with discovery and post-compromise reconnaissance.
+
+logsource:
+  product: windows
+  category: process_creation
+
+detection:
+  selection_netstat:
+    CommandLine|contains:
+      - 'netstat'
+      - 'LISTENING'
+
+  selection_ip_range:
+    CommandLine|contains:
+      - '192.168.'
+      - '-hbs'
+
+  condition: selection_netstat or selection_ip_range
+
+falsepositives:
+  - Network troubleshooting
+  - Administrator diagnostics
+  - Inventory scripts
+
+level: medium
+
+tags:
+  - attack.discovery
+  - attack.t1046
+  - attack.t1049
+  - attack.t1018
+  - threat.intelligence
+  - malware.plugx
+  - threat_actor.space_pirates

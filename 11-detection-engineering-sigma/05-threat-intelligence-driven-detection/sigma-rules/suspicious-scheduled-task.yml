@@ -1,0 +1,48 @@
+title: Suspicious Scheduled Task Creation
+
+id: c4a6b8f2-1d9e-4d7a-9f2e-7a5b6c8d9e10
+
+status: experimental
+
+description: Detects suspicious scheduled task creation activity commonly associated with persistence and malware execution.
+
+logsource:
+  product: windows
+  category: process_creation
+
+detection:
+  selection_image:
+    Image|endswith:
+      - '\schtasks.exe'
+
+  selection_create:
+    CommandLine|contains:
+      - '/Create'
+      - '/create'
+
+  selection_suspicious:
+    CommandLine|contains:
+      - 'powershell'
+      - '-W hidden'
+      - '-NonI'
+      - 'IEX'
+
+  condition: selection_image and selection_create and selection_suspicious
+
+falsepositives:
+  - Administrative task creation
+  - Software deployment
+  - Enterprise management tooling
+
+level: high
+
+tags:
+  - attack.persistence
+  - attack.t1053.005
+  - attack.execution
+  - attack.t1059.001
+  - attack.defense_evasion
+  - attack.t1027
+  - threat.intelligence
+  - malware.plugx
+  - threat_actor.space_pirates
