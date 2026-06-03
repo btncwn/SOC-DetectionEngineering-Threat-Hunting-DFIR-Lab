@@ -83,16 +83,22 @@ The project demonstrates the ability to design, build, troubleshoot, and operate
 
 ## Technologies Used
 
-| Technology                 | Purpose                            |
-| -------------------------- | ---------------------------------- |
-| Splunk Enterprise          | SIEM, Threat Hunting, Dashboarding |
-| Sysmon                     | Endpoint Telemetry                 |
-| Splunk Universal Forwarder | Log Collection & Forwarding        |
-| Kali Linux                 | Attack Simulation                  |
-| Nessus Essentials          | Vulnerability Assessment           |
-| MITRE ATT&CK               | Adversary Behavior Mapping         |
-| MISP                       | Threat Intelligence      |
-| Velociraptor               | DFIR Investigations (Planned)      |
+
+| Technology                     | Purpose                                                           |
+| ------------------------------ | ----------------------------------------------------------------- |
+| Splunk Enterprise              | SIEM Platform, Security Monitoring, Threat Hunting & Dashboarding |
+| Sysmon                         | Endpoint Telemetry & Process Monitoring                           |
+| Splunk Universal Forwarder     | Log Collection & Event Forwarding                                 |
+| Kali Linux                     | Attack Simulation & Adversary Emulation                           |
+| Windows 7 Professional SP1 x64 | Target Environment                                                |
+| Nessus Essentials              | Vulnerability Assessment & Exposure Validation                    |
+| MITRE ATT&CK                   | Adversary Behavior Mapping & Detection Coverage                   |
+| MISP                           | Threat Intelligence Platform, IOC Enrichment & Threat Hunting     |
+| BOTSv3 Dataset                 | Detection Validation & Threat Hunting Exercises                   |
+| Sigma                          | Detection Engineering & Portable Detection Development            |
+| GitHub Pages                   | Cybersecurity Portfolio & Project Documentation                   |
+| SOAR Workflows                 | Security Automation & Playbook Development (In Progress)          |
+| Velociraptor                   | DFIR Investigations (Planned Future Integration)                  |
 
 ---
 
@@ -169,26 +175,35 @@ Mapped Techniques Include:
 
 ## Skills Demonstrated
 
-* SOC Operations
-* Detection Engineering
-* Threat Hunting
-* SIEM Administration
-* Vulnerability Management
-* Endpoint Monitoring
-* Security Investigation
-* Incident Response
+* Security Operations Center (SOC) Operations
+* Threat Hunting & Investigation
+* Detection Engineering (Sigma)
+* SIEM Administration (Splunk Enterprise)
+* Vulnerability Assessment & Exposure Validation
+* Endpoint Monitoring & Telemetry Analysis
+* Threat Intelligence & IOC Enrichment (MISP)
 * MITRE ATT&CK Mapping
-* Log Analysis
+* Incident Response & DFIR Methodology
+* Security Event Analysis & Correlation
+* PowerShell & Process Analysis
+* Log Collection, Parsing & Forwarding
+* Detection Validation & Tuning
+* Security Reporting & Documentation
 
 ---
 
 ## Future Enhancements
+* SOAR Playbook Development & Automation
+* Threat Intelligence Automated Enrichment Workflows
+* Velociraptor DFIR Integration
+* Advanced Sigma Detection Engineering Use Cases
+* Splunk Enterprise Security (ES) Use Cases
+* Detection Coverage Expansion Across Additional ATT&CK Techniques
+* Automated Alert Triage & Investigation Workflows
+* Custom Threat Hunting Dashboards
+* Elastic Security Detection & Threat Hunting Lab
+* Microsoft Sentinel Detection Engineering Lab
 
-* MISP Threat Intelligence Integration
-* IOC Enrichment Workflows
-* Velociraptor DFIR Investigations
-* ATT&CK Coverage Expansion
-* Additional Detection Engineering Use Cases
 
 ---
 
