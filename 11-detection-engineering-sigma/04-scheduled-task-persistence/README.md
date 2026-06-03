@@ -381,6 +381,15 @@ Demonstrates:
 
 ## 03-detection-validation.png
 
+
+Detection validation returned 1 high-confidence event matching all Sigma conditions:
+
+ParentImage = powershell.exe  
+Image = schtasks.exe  
+CommandLine contains /Create
+
+This confirmed that the Sigma detection logic successfully identified suspicious scheduled task creation initiated by PowerShell.
+
 Demonstrates:
 
 * Splunk validation
