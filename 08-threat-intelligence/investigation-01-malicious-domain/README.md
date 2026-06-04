@@ -43,7 +43,6 @@ Analysis revealed repeated HTTP POST requests to suspicious PHP filenames. An ad
 
 ---
 
-
 ## Evidence
 
 ### Web-Shell Probing Activity
@@ -93,6 +92,10 @@ The attacker also issued a PROPFIND request against a WebDAV path.
 All observed requests resulted in HTTP 404 responses, indicating the requested resources were not present on the server.
 
 No evidence of successful compromise was identified during this investigation.
+
+
+![HTTP Method Analysis](screenshots/02-http-method-analysis.png)
+
 
 ---
 
