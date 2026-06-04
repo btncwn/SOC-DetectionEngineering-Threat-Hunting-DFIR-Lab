@@ -1,7 +1,7 @@
 [Home](index.md) | [About](about.md) | [Certifications](certifications.md) | [Projects](projects.md) | [Contact](contact.md)
 # Turhan Acar
 
-## SOC Analyst | Threat Hunter | Detection Engineering | DFIR
+## SOC Analyst | Threat Hunter | Detection Engineering | IR
 
 Welcome to my cybersecurity portfolio.
 
@@ -10,7 +10,6 @@ This website documents hands-on security projects focused on:
 * Threat Hunting
 * Detection Engineering
 * Threat Intelligence
-* DFIR
 * Splunk Enterprise
 * Sysmon
 * MISP
@@ -24,7 +23,7 @@ This website documents hands-on security projects focused on:
 
 ### SOC Detection Engineering, Threat Hunting and DFIR Lab
 
-A hands-on SOC lab focused on vulnerability assessment, attack simulation, endpoint telemetry, Splunk ingestion, threat hunting, MITRE ATT&CK mapping, threat intelligence, DFIR, detection engineering, and SOAR automation.
+A hands-on SOC lab focused on vulnerability assessment, attack simulation, endpoint telemetry, Splunk ingestion, threat hunting, MITRE ATT&CK mapping, threat intelligence, IR, detection engineering, and SOAR automation.
 
 ---
 
@@ -38,7 +37,6 @@ A hands-on SOC lab focused on vulnerability assessment, attack simulation, endpo
 * Threat Hunting
 * MITRE ATT&CK Mapping
 * Threat Intelligence
-* DFIR
 * SOC Investigations
 * Detection Engineering with Sigma
 * SOAR Automation
@@ -84,7 +82,6 @@ Splunk Validation
       ↓
 SOC Investigation
       ↓
-DFIR and Automation
 ```
 
 Core lesson:
