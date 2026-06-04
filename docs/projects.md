@@ -122,16 +122,9 @@ Projects include:
 
 ---
 
-# 09 - DFIR
+# 09-incident-response
 
-Digital Forensics and Incident Response activities.
 
-Projects include:
-
-* Timeline reconstruction
-* Evidence analysis
-* Host investigation
-* Incident reconstruction
 
 ---
 
