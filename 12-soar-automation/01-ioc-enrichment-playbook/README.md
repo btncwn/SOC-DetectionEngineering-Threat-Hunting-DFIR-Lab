@@ -52,7 +52,6 @@ Escalate / Continue Investigation / Close
 
 ---
 
-## Intelligence Sources
 
 ### Current Lab Sources
 
@@ -67,6 +66,7 @@ Escalate / Continue Investigation / Close
 * AlienVault OTX
 * URLHaus
 * MalwareBazaar
+* PT Expert Security Center
 
 ---
 
@@ -131,7 +131,7 @@ MISP enrichment provided campaign context and malware-related intelligence that 
 Screenshot:
 
 ```text
-02-misp-hash-enrichment.png
+01-misp-hash-enrichment.png
 ```
 
 ---
@@ -166,7 +166,7 @@ The script automatically identified:
 Screenshot:
 
 ```text
-03-python-misp-enrichment.png
+02-python-misp-enrichment.png
 ```
 
 ---
@@ -186,7 +186,7 @@ Threat intelligence investigations frequently identify malware samples, tooling,
 Screenshot:
 
 ```text
-04-virustotal-no-detection.png
+03-virustotal-no-detection.png
 ```
 
 ---
@@ -226,6 +226,139 @@ The investigation demonstrated that intelligence sources often provide different
 
 A single source should not be used as the sole basis for security decisions.
 
+
+---
+
+## MISP Intelligence Enrichment
+
+The SHA256 hash was searched within MISP using both manual investigation techniques and a Python-based automation script developed using PyMISP.
+
+### Result
+
+```text
+Event ID: 1723
+
+OSINT - Space Pirates:
+analyzing the tools and connections
+of a new hacker group
+
+Comment:
+MyKLoadClient
+```
+
+The indicator was successfully correlated with a MISP event containing threat intelligence related to the Space Pirates threat actor.
+
+Screenshots:
+
+```text
+01-misp-hash-enrichment.png
+02-python-misp-enrichment.png
+```
+
+---
+
+## External Threat Intelligence Validation
+
+To validate the intelligence obtained from MISP, the indicator was researched using external sources.
+
+### VirusTotal
+
+Result:
+
+```text
+No security vendors flagged this file as malicious.
+```
+
+### Hybrid Analysis
+
+Result:
+
+```text
+No results returned.
+```
+
+Although neither platform provided additional intelligence, this demonstrated an important investigative principle:
+
+> The absence of detections does not indicate the absence of risk.
+
+Screenshots:
+
+```text
+03-virustotal-no-detection.png
+04-hybrid-analysis-no-result.png
+```
+
+---
+
+## PT Expert Security Center Correlation
+
+Further investigation led to the discovery of a detailed threat intelligence report published by PT Expert Security Center (Positive Technologies):
+
+```text
+Space Pirates:
+Analyzing the Tools and Connections
+of a New Hacker Group
+```
+
+The report documented malware, infrastructure, and tradecraft associated with the Space Pirates threat actor.
+
+Most importantly, the investigated SHA256 hash was directly listed within the report's IOC section under:
+
+```text
+MyKLoadClient
+```
+
+This independently validated the intelligence originally discovered through MISP enrichment.
+
+
+
+```
+https://global.ptsecurity.com/en/research/pt-esc-threat-intelligence/space-pirates-tools-and-connections/
+```
+
+---
+
+## Infrastructure Correlation
+
+The PT Expert Security Center report also documented the use of PlugX malware within the Space Pirates ecosystem.
+
+Researchers identified the following command-and-control infrastructure:
+
+```text
+micro.dns04.com
+microft.dynssl.com
+api.microft.dynssl.com
+www.0077.x24hr.com
+```
+
+The report noted that this infrastructure directly intersected with MyKLoadClient command-and-control infrastructure.
+
+This demonstrates how a single IOC can be used to pivot into broader malware families, campaign infrastructure, and threat actor activity.
+
+Screenshot:
+
+```text
+05-plugx-infrastructure-correlation-from-positive-technologies.png
+```
+
+---
+
+## Analyst Assessment
+
+Investigation results:
+
+| Source                           | Result        |
+| -------------------------------- | ------------- |
+| MISP                             | Match Found   |
+| Python MISP Automation           | Match Found   |
+| VirusTotal                       | No Detection  |
+| Hybrid Analysis                  | No Result     |
+| PT Expert Security Center Report | IOC Confirmed |
+
+The investigation demonstrated the importance of correlating indicators across multiple intelligence sources.
+
+A single hash value provided a path from IOC enrichment to malware analysis, infrastructure correlation, and threat actor attribution.
+
 ---
 
 
@@ -241,12 +374,16 @@ A single source should not be used as the sole basis for security decisions.
 
 ---
 
-## Key Lesson
-## Key Lesson
+## Key Lessons Learned
+
+* Threat intelligence enrichment extends beyond reputation checks.
+* Intelligence sources frequently provide different levels of visibility.
+* Campaign context often provides greater value than individual indicators.
+* Threat actor infrastructure can be identified through IOC pivoting.
+* Python automation can significantly reduce enrichment time.
+* Intelligence correlation improves analyst confidence during investigations.
 
 > Threat intelligence provides context. Telemetry provides evidence. Analyst judgment provides understanding.
-
-The IOC was successfully identified within MISP threat intelligence data despite the absence of detections within VirusTotal and Hybrid Analysis.
-
-This reinforces the importance of correlating intelligence from multiple sources rather than relying solely on reputation-based detections.
 > Threat intelligence should support investigation, not replace analysis.
+> Hashes change. IPs change. Domains change. Behaviors persist.
+---
