@@ -220,11 +220,6 @@ Reference:
 https://global.ptsecurity.com/en/research/pt-esc-threat-intelligence/space-pirates-tools-and-connections/
 ```
 
-### Screenshot
-
-```text
-05-space-pirates-ioc-confirmation.png
-```
 
 ---
 
