@@ -34,6 +34,10 @@ We send **system information every 30 seconds** – slow enough to blend in.
 
 ```bash
 sudo socat -u UDP-LISTEN:1234,fork STDOUT
+
+![Kali UDP Listener](screenshots/01-kali-udp-listener.png)
+
+
 ```
 
 ### 2️⃣ Windows – Send a single test message (PowerShell)
@@ -66,6 +70,8 @@ while ($true) {
     Start-Sleep -Seconds 30
 }
 ```
+![Windows UDP Exfiltration](screenshots/02-windows-udp-exfiltration.png)
+
 
 ---
 
@@ -88,7 +94,9 @@ while ($true) {
 ## 📁 Files
 
 - `udp_exfil.ps1` – PowerShell exfiltration script  
-- `screenshots/` – Evidence images  
+- `screenshots/` – Evidence images
+
+![Wireshark UDP Capture](screenshots/03-wireshark-udp-capture.png)
 
 ---
 
@@ -105,7 +113,6 @@ while ($true) {
 
 ---
 
-*Project 2 – Complete. UDP exfiltration simulated, detected, and documented.* 
 ```
 
 ---
