@@ -53,7 +53,10 @@ Telemetry collection was validated through:
 
 All events were successfully ingested into Splunk and used for detection engineering and threat hunting workflows.
 
+![Endpoint Telemetry Evidence](screenshots/01-endpoint-telemetry-evidence.png)
+
 ---
+
 
 ## Security Monitoring Outcomes
 
