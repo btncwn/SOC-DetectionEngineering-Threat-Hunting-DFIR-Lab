@@ -35,10 +35,12 @@ We send **system information every 30 seconds** – slow enough to blend in.
 ```bash
 sudo socat -u UDP-LISTEN:1234,fork STDOUT
 
-![Kali UDP Listener](screenshots/01-kali-udp-listener.png)
+
 
 
 ```
+![Kali UDP Listener](screenshots/01-kali-udp-listener.png)
+
 
 ### 2️⃣ Windows – Send a single test message (PowerShell)
 
