@@ -143,6 +143,8 @@ The captured artifacts provided additional validation of the persistence activit
 
 A Registry Run Key persistence mechanism was successfully created and validated.
 
+![Persistence Hunting Results](screenshots/02-persistence-hunting-results.png)
+
 ### Automated Detection
 
 The Python hunting tool identified the persistence artifact and generated evidence suitable for investigation and reporting.
@@ -192,3 +194,26 @@ No additional persistence mechanisms were identified during this investigation.
 > Registry Run Keys remain one of the most common persistence mechanisms used by attackers and should be routinely reviewed during incident response investigations.
 
 This investigation demonstrated how persistence techniques can be identified through registry analysis, PowerShell logging, automated hunting, and evidence validation.
+
+
+
+
+
+
+
+
+## Evidence
+
+### Registry Persistence Detection
+
+
+
+The Registry Run Key investigation identified a persistence entry associated with the Atomic Red Team simulation.
+
+---
+
+### Persistence Hunting Results
+
+
+
+The custom Python scanner successfully detected the persistence mechanism and exported the results to a CSV report.
