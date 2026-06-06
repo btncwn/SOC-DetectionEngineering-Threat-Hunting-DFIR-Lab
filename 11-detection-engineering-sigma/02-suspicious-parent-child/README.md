@@ -76,7 +76,13 @@ sigma-rule.yml
 ```
 
 ### Sigma ATT&CK Tags
+## Sigma Rule Development
 
+The Sigma rule was created to identify suspicious parent-child process relationships commonly associated with attacker activity and process abuse.
+
+### Evidence
+
+![Sigma Rule Creation](screenshots/01-sigma-rule-creation.png)
 The detection uses the following Sigma ATT&CK mappings:
 
 | Sigma Tag        | MITRE ATT&CK Mapping              |
@@ -107,7 +113,13 @@ To validate the detection, Sysmon Event ID 1 process creation events were analyz
 Validation confirmed six matching events.
 
 ---
+## Detection Validation
 
+The detection was validated against available telemetry to confirm rule effectiveness and expected alert generation.
+
+### Evidence
+
+![Detection Validation](screenshots/02-detection-validation.png)
 ## Detection Results
 
 Observed activity included:
