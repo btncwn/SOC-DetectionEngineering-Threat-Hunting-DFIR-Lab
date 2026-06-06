@@ -1,8 +1,10 @@
 [Home](index.md) | [About](about.md) | [Certifications](certifications.md) | [Projects](projects.md) | [Contact](contact.md)
-This portfolio documents a hands-on SOC, Incident Response, Threat Hunting, Detection Engineering, Threat Intelligence, and SOAR Automation lab. 
+
 ## SOC Analyst | Threat Hunter | Detection Engineering | IR
 
-Welcome to my cybersecurity portfolio.
+Welcome to my cybersecurity portfolio. 
+
+This portfolio documents a hands-on SOC, Incident Response, Threat Hunting, Detection Engineering, Threat Intelligence, and SOAR Automation lab. 
 
 This website documents hands-on security projects focused on:
 
