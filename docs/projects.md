@@ -11,16 +11,23 @@ This portfolio documents the development of a complete SOC Detection Engineering
 * Splunk Enterprise
 * Sysmon
 * Windows 7
+* Windows 11
 * Kali Linux
 * Nessus
+* Docker
+* Docker Compose
 * MISP
-* MITRE ATT&CK
 * Sigma
 * PySigma
+* PowerShell
+* Python
+* Wireshark
+* MITRE ATT&CK
 * BOTSv3 Dataset
-* SOAR Automation
 * Threat Intelligence Analysis
 * Detection Engineering
+* Incident Response
+* SOAR Automation
 
 ---
 
