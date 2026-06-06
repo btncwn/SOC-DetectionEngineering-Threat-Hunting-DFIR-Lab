@@ -199,7 +199,13 @@ See:
 ```text
 sigma-rule.yml
 ```
+## Sigma Rule Development
 
+The Sigma rule was created to identify suspicious scheduled task persistence activity commonly associated with attacker persistence techniques.
+
+### Evidence
+
+![Sigma Rule Creation](screenshots/01-sigma-rule-creation.png)
 Core Detection Logic:
 
 ```yaml
@@ -273,8 +279,13 @@ allowed validation of:
 * Detection engineering workflow
 
 This approach is commonly used in laboratory environments when learning and validating Sigma detections.
+## PySigma Conversion
 
----
+The Sigma rule was converted into Splunk SPL using PySigma to support SIEM-based detection validation.
+
+### Evidence
+
+![PySigma Conversion](screenshots/02-pysigma-splunk-conversion.png)
 
 # Generated Splunk Query
 
@@ -397,8 +408,13 @@ Demonstrates:
 * XML field extraction
 * Detection tuning and validation
 
----
+## Detection Validation
 
+The converted detection logic was validated against available telemetry to confirm expected detection behaviour.
+
+### Evidence
+
+![Detection Validation](screenshots/03-detection-validation.png)
 # MITRE ATT&CK Mapping
 
 | Tactic          | Technique | Description                     |
