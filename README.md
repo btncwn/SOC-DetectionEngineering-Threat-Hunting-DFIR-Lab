@@ -8,11 +8,29 @@ The project combines vulnerability management, attack simulation, endpoint telem
 
 The lab was developed using real telemetry collected from a Windows 7 environment and analyzed through Splunk Enterprise.
 
----
+## Key Achievements
 
-## Key Achievement
+✅ Built an end-to-end SOC lab covering Telemetry → Detection → Threat Hunting → Incident Response → Threat Intelligence → SOAR Automation
 
-Designed and built a complete SOC Detection Engineering, Threat Hunting, Threat Intelligence, and DFIR lab from the ground up using Splunk Enterprise, Sysmon, Nessus Essentials, MISP, Sigma, and the BOTSv3 dataset.
+✅ Deployed and integrated Splunk Enterprise, Sysmon, MISP, Nessus, Docker, and Windows endpoints within a single security monitoring environment
+
+✅ Created and validated Sigma detection rules using PySigma and Splunk
+
+✅ Mapped observed attacker behaviours to MITRE ATT&CK techniques and tactics
+
+✅ Performed Threat Intelligence investigations using MISP and IOC enrichment workflows
+
+✅ Conducted Incident Response investigations including persistence, lateral movement, command and control, and data exfiltration scenarios
+
+✅ Developed SOAR playbooks and security automation workflows using Python and threat intelligence enrichment processes
+
+✅ Produced 30+ technical project write-ups supported by 49+ screenshots, validation artefacts, and investigation evidence
+
+
+
+## Project Journey
+
+Designed and built a complete SOC Detection Engineering, Threat Hunting, Threat Intelligence, and Incident Response lab from the ground up using Splunk Enterprise, Sysmon, Nessus Essentials, MISP, Sigma, and the BOTSv3 dataset.
 
 During the project, multiple technical challenges were encountered and resolved. Initial attempts to forward Windows event logs from a Windows 11 UTM virtual machine to a Splunk Enterprise instance running on macOS were unsuccessful, requiring redesign of the lab architecture. To overcome compatibility and telemetry collection issues, the environment was rebuilt using a dedicated Windows 7 endpoint and a Kali Linux attacker system.
 
@@ -20,14 +38,12 @@ Successfully deployed and configured Sysmon and Splunk Universal Forwarder on le
 
 Conducted vulnerability assessments using Nessus Essentials, identified a critical MS17-010 (EternalBlue) exposure, validated the findings through SMB enumeration activities, and analyzed resulting telemetry through Splunk-based investigations.
 
-Developed structured threat hunting investigations covering malicious domains, malicious IP addresses, malware hashes, suspicious PowerShell activity, and attacker behavior analysis. Enhanced investigations through MISP integration, IOC enrichment, and threat intelligence-driven hunting workflows.
+Developed structured threat hunting investigations covering malicious domains, malware hashes, suspicious PowerShell activity, attacker behaviour analysis, detection engineering, threat intelligence enrichment, and incident response workflows.
 
-Mapped observed adversary activity to the MITRE ATT&CK framework, performed DFIR analysis, documented incident response findings, and developed Sigma-based detections that were validated against real telemetry within the lab environment.
-
-The project demonstrates the ability to design, build, troubleshoot, and operate an end-to-end SOC environment while integrating vulnerability management, telemetry engineering, threat hunting, threat intelligence, detection engineering, DFIR, and security operations workflows.
+The project demonstrates the ability to design, build, troubleshoot, document, and operate an end-to-end SOC environment using real telemetry and industry-standard security technologies.
 
 
----
+
 
 ## Lab Environment
 
@@ -97,14 +113,10 @@ The project demonstrates the ability to design, build, troubleshoot, and operate
 | BOTSv3 Dataset                 | Detection Validation & Threat Hunting Exercises                   |
 | Sigma                          | Detection Engineering & Portable Detection Development            |
 | GitHub Pages                   | Cybersecurity Portfolio & Project Documentation                   |
-| SOAR Workflows                 | Security Automation & Playbook Development (In Progress)          |
-|                   |
-
----
+| SOAR Workflows                 | Security Automation & Playbook Development (In Progress)          
 
 ## Repository Structure
 
-```text
 SOC-Detection-Engineering-Threat-Hunting-DFIR-Lab
 01-lab-architecture
 02-vulnerability-assessment
@@ -118,9 +130,7 @@ SOC-Detection-Engineering-Threat-Hunting-DFIR-Lab
 10-soc-investigations
 11-detection-engineering-sigma
 12-soar-automation
-```
 
----
 
 ## Project Highlights
 
@@ -171,7 +181,6 @@ Mapped Techniques Include:
 * T1059.003 – Windows Command Shell
 * T1210 – Exploitation of Remote Services
 
----
 
 ## Skills Demonstrated
 
@@ -190,7 +199,6 @@ Mapped Techniques Include:
 * Detection Validation & Tuning
 * Security Reporting & Documentation
 
----
 
 ## Future Enhancements
 * SOAR Playbook Development & Automation
@@ -203,8 +211,6 @@ Mapped Techniques Include:
 * Elastic Security Detection & Threat Hunting Lab
 * Microsoft Sentinel Detection Engineering Lab
 
-
----
 
 ## Disclaimer
 
