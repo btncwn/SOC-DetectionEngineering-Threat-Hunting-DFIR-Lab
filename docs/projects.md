@@ -114,66 +114,55 @@ Projects include:
 * Detection coverage analysis
 * Technique documentation
 
-
-# 08 - Threat Intelligence
-
-Threat intelligence enrichment and IOC-based investigations.
+  # 08 - Threat Intelligence
 
 Projects include:
 
-* Malicious domain analysis
-* Malicious IP analysis
-* Malware hash investigation
-* MISP enrichment
-* Threat intelligence driven hunting
+* [Malicious Domain Investigation](../08-threat-intelligence/investigation-01-malicious-domain/README.md)
+* [Malicious IP Investigation](../08-threat-intelligence/investigation-02-malicious-ip/README.md)
+* [Malware Hash Investigation](../08-threat-intelligence/investigation-03-malware-hash/README.md)
+* [MISP Enrichment Investigation](../08-threat-intelligence/investigation-04-misp-enrichment/README.md)
+* [Threat Intelligence Driven Hunting](../08-threat-intelligence/investigation-05-threat-intelligence-driven-hunting/README.md)
 
 # 09 - Incident Response
-
 Hands-on Incident Response investigations focused on attacker behaviour validation, evidence collection, log analysis, and MITRE ATT&CK mapping.
 
 Projects include:
 
-* Lateral Movement Investigation
-* Windows Persistence Investigation
-* Low and Slow UDP Exfiltration
-* Fileless PowerShell Beacon Investigation
-* Incident Response Playbook
+* [Lateral Movement Investigation](../09-incident-response/01-lateral-movement-investigation/README.md)
+* [Windows Persistence Investigation](../09-incident-response/02-windows-persistence-investigation/README.md)
+* [Low and Slow UDP Exfiltration](../09-incident-response/03-low-and-slow-udp-exfiltration/README.md)
+* [Fileless PowerShell Beacon Investigation](../09-incident-response/04-fileless-powershell-beacon-investigation/README.md)
+* [Incident Response Playbook](../09-incident-response/05-incident-response-playbook/README.md)
 
 # 10 - SOC Investigations
 
 End-to-end SOC investigations combining telemetry, threat intelligence, and analyst workflows.
 
-
 # 11 - Detection Engineering with Sigma
-
 Development, conversion, validation, and tuning of Sigma detection rules using real telemetry, threat hunting findings, and threat intelligence analysis.
 
 Projects include:
 
-* PowerShell Encoded Command Detection
-* Suspicious Parent-Child Process Detection
-* Network Discovery Detection
-* Scheduled Task Persistence Detection
-* Threat Intelligence Driven Detection
-* Sigma Rule Development
-* PySigma Conversion
-* Splunk Detection Validation
-* Detection Tuning
-* MITRE ATT&CK Mapping
-* Behavioral Detection Engineering
+* [PowerShell Encoded Command Detection](../11-detection-engineering-sigma/01-powershell-encoded-command/README.md)
+* [Suspicious Parent-Child Detection](../11-detection-engineering-sigma/02-suspicious-parent-child/README.md)
+* [Listening Port Discovery Detection](../11-detection-engineering-sigma/03-listening-port-discovery/README.md)
+* [Scheduled Task Persistence Detection](../11-detection-engineering-sigma/04-scheduled-task-persistence/README.md)
+* [Threat Intelligence Driven Detection](../11-detection-engineering-sigma/05-threat-intelligence-driven-detection/README.md)
 
 # 12 - SOAR Automation
 
 
 Security Orchestration, Automation, and Response workflows designed to automate investigation and enrichment activities.
 
+# 12 - SOAR Automation
+
 Projects include:
 
-* IOC Enrichment Playbook
-* MISP Threat Intelligence Integration
-* Malware Hash Automation
-* Threat Intelligence Enrichment
-* Investigation Automation
-* Python-Based Security Automation
+* [IOC Enrichment Playbook](../12-soar-automation/01-ioc-enrichment-playbook/README.md)
+* [Scheduled Task Investigation Playbook](../12-soar-automation/03-scheduled-task-investigation-playbook/README.md)
+* [Phishing Triage Workflow](../12-soar-automation/04-phishing-triage/README.md)
+* [PowerShell Investigation Workflow](../12-soar-automation/05-powershell-investigation/README.md)
+* [Threat Intelligence Workflow](../12-soar-automation/06-threat-intelligence-workflow/README.md)
 
 
