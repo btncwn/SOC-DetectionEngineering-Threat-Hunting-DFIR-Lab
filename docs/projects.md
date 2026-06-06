@@ -4,7 +4,7 @@
 
 # SOC Project Portfolio
 
-This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, DFIR, and Threat Intelligence lab environment.
+This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, and SOAR Automation lab environment.
 
 # Core Technologies
 
@@ -122,11 +122,49 @@ Projects include:
 
 ---
 
-# 09-incident-response
+# 09 - Incident Response
 
+Hands-on Incident Response investigations focused on attacker behaviour validation, evidence collection, log analysis, and MITRE ATT&CK mapping.
 
+Projects include:
+
+* Lateral Movement Investigation
+
+  * WMI Execution Analysis
+  * Event ID 4688 Investigation
+  * SSH Activity Validation
+  * Reverse Tunnel Assessment
+
+* Windows Persistence Investigation
+
+  * Registry Run Key Persistence
+  * Atomic Red Team Simulation
+  * PowerShell Event ID 4104 Analysis
+  * Python Persistence Hunting
+
+* Low and Slow UDP Exfiltration
+
+  * PowerShell-Based Exfiltration
+  * UDP Traffic Analysis
+  * Wireshark Packet Validation
+  * Data Exfiltration Detection
+
+* Fileless PowerShell Beacon Investigation
+
+  * Fileless Malware Analysis
+  * PowerShell ScriptBlock Logging
+  * Event ID 4104 Investigation
+  * Command and Control Detection
+
+* Incident Response Playbook
+
+  * Investigation Workflow
+  * Evidence Collection
+  * Containment Strategy
+  * Recovery Procedures
 
 ---
+
 
 # 10 - SOC Investigations
 
@@ -156,14 +194,17 @@ Projects include:
 
 # 12 - SOAR Automation
 
-Security Orchestration, Automation, and Response workflows.
 
-Planned projects include:
+Security Orchestration, Automation, and Response workflows designed to automate investigation and enrichment activities.
 
-* IOC enrichment playbooks
-* Malware hash automation
-* Phishing triage workflows
-* Threat intelligence workflows
+Projects include:
+
+* IOC Enrichment Playbook
+* MISP Threat Intelligence Integration
+* Malware Hash Automation
+* Threat Intelligence Enrichment
+* Investigation Automation
+* Python-Based Security Automation
 
 ---
 
