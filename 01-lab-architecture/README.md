@@ -2,154 +2,89 @@
 
 ## Overview
 
-This project is built around a hands-on Security Operations Center (SOC), Threat Hunting, Detection Engineering, Incident Response , and Threat Intelligence lab environment.
+This section documents the design and architecture of the Security Operations Center (SOC) lab environment used throughout this portfolio.
 
-The objective is to simulate real-world security operations by generating telemetry, conducting investigations, developing detections, performing threat intelligence enrichment, and documenting incident response activities.
+The environment was built to support Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, Vulnerability Assessment, and SOAR Automation activities.
 
----
-
-## Lab Objectives
-
-* Build a realistic SOC environment
-* Generate attack telemetry
-* Collect endpoint and network logs
-* Perform threat hunting investigations
-* Conduct IR activities
-* Develop detection logic
-* Integrate threat intelligence workflows
-* Implement security automation concepts
+The lab combines Windows and Linux systems, centralized logging, endpoint telemetry, threat intelligence platforms, and security monitoring technologies.
 
 ---
 
-## Lab Components
+## Architecture Components
 
-### Splunk Enterprise
+### Monitoring Platform
 
-Primary SIEM platform used for:
+* Splunk Enterprise
+* Splunk Universal Forwarder
+* Sysmon
 
-* Log ingestion
-* Data analysis
-* Threat hunting
-* Dashboard creation
-* Detection validation
+### Endpoint Systems
 
-### Windows 7
+* Windows 7
+* Windows 11
 
-Primary endpoint used for:
+### Attack Platform
 
-* Sysmon telemetry generation
-* Process monitoring
-* Attack simulation
-* Investigation exercises
+* Kali Linux
 
-### Sysmon
+### Vulnerability Management
 
-Endpoint telemetry source used for:
+* Nessus Essentials
 
-* Process creation monitoring
-* Network connection monitoring
-* File activity monitoring
-* Parent-child process analysis
+### Threat Intelligence Platform
 
-### Kali Linux
+* MISP
+* Docker
+* Docker Compose
 
-Adversary simulation platform used for:
-
-* Reconnaissance
-* Enumeration
-* Attack simulation
-* Security testing
-
-### Nessus
-
-Vulnerability assessment platform used for:
-
-* Vulnerability discovery
-* Risk identification
-* Security assessment
-* Remediation analysis
-
-### MISP
-
-Threat intelligence platform used for:
-
-* IOC enrichment
-* Threat intelligence analysis
-* Indicator management
-* Intelligence-driven investigations
-
-### MITRE ATT&CK
-
-Framework used for:
-
-* Adversary behavior mapping
-* Technique identification
-* Detection coverage analysis
-* Investigation documentation
-
-### BOTSv3 Dataset
-
-Security dataset used for:
-
-* Threat hunting exercises
-* Investigation scenarios
-* Detection engineering validation
-* SOC analyst training
-
----
 
 ## Data Flow
 
-```text
-Attack Simulation
-        ↓
-Windows 11 + Sysmon
-        ↓
-Splunk Enterprise
-        ↓
-Threat Hunting
-        ↓
-Threat Intelligence Enrichment
-        ↓
-       IR 
-        ↓
-Detection Engineering
-        ↓
-SOAR Automation
-```
+                Windows 7 + Sysmon
+                         ↓
+              Splunk Universal Forwarder
+                         ↓
+                   Splunk Enterprise
+                         ↑
+                         │
+                    BOTSv3 Dataset
+                         │
+                         ↓
+      ┌───────────────────────────────────┐
+      │ Threat Hunting                    │
+      │ Detection Engineering             │
+      │ Incident Response                 │
+      │ SOC Investigations                │
+      └───────────────────────────────────┘
+                         ↑
+                         │
+                       MISP
+                         ↑
+                         │
+             Threat Intelligence Sources
 
----
 
-## Repository Structure
 
-```text
-01-lab-architecture
-02-vulnerability-assessment
-03-attack-simulation
-04-endpoint-telemetry
-05-splunk-ingestion
-06-threat-hunting
-07-mitre-attack-mapping
-08-threat-intelligence
-09-incident-response
-10-soc-investigations
-11-detection-engineering-sigma
-12-soar-automation
-```
+## Security Capabilities
 
----
+The architecture supports:
 
-## Skills Demonstrated
-
-* Splunk Administration
+* Centralized Log Collection
+* Endpoint Telemetry Monitoring
 * Threat Hunting
-* Incident Response
-* Threat Intelligence
+* Vulnerability Assessment
+* Threat Intelligence Enrichment
 * MITRE ATT&CK Mapping
-* Vulnerability Management
 * Detection Engineering
-* Sigma Rule Development
-* Security Automation
+* Security Investigations
+* Incident Response Workflows
+* SOAR Automation
 
-```
-```
+
+## Purpose
+
+The objective of the architecture is to provide a realistic SOC environment for developing practical cybersecurity skills and conducting hands-on security investigations.
+
+The platform serves as the foundation for all projects contained within this portfolio.
+
+

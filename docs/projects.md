@@ -4,23 +4,30 @@
 
 # SOC Project Portfolio
 
-This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, DFIR, and Threat Intelligence lab environment.
+This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, and SOAR Automation lab environment.
 
 # Core Technologies
 
 * Splunk Enterprise
 * Sysmon
 * Windows 7
+* Windows 11
 * Kali Linux
 * Nessus
+* Docker
+* Docker Compose
 * MISP
-* MITRE ATT&CK
 * Sigma
 * PySigma
+* PowerShell
+* Python
+* Wireshark
+* MITRE ATT&CK
 * BOTSv3 Dataset
-* SOAR Automation
 * Threat Intelligence Analysis
 * Detection Engineering
+* Incident Response
+* SOAR Automation
 
 ---
 
@@ -122,11 +129,39 @@ Projects include:
 
 ---
 
-# 09-incident-response
+# 09 - Incident Response
 
+Hands-on Incident Response investigations focused on attacker behaviour validation, evidence collection, log analysis, and MITRE ATT&CK mapping.
+
+Projects include:
+
+* Lateral Movement Investigation
+* Windows Persistence Investigation
+* Low and Slow UDP Exfiltration
+* Fileless PowerShell Beacon Investigation
+* Incident Response Playbook
+
+Projects include:
+
+* WMI Execution Analysis
+* Event ID 4688 Investigation
+* Event ID 4104 Analysis
+* Registry Persistence Detection
+* PowerShell Analysis
+* SSH Activity Validation
+* Reverse Tunnel Assessment
+* UDP Traffic Analysis
+* Wireshark Packet Validation
+* Command and Control Detection
+* Evidence Collection
+* Incident Response Procedures
+* MITRE ATT&CK Mapping
+
+---
 
 
 ---
+
 
 # 10 - SOC Investigations
 
@@ -156,23 +191,17 @@ Projects include:
 
 # 12 - SOAR Automation
 
-Security Orchestration, Automation, and Response workflows.
 
-Planned projects include:
+Security Orchestration, Automation, and Response workflows designed to automate investigation and enrichment activities.
 
-* IOC enrichment playbooks
-* Malware hash automation
-* Phishing triage workflows
-* Threat intelligence workflows
+Projects include:
+
+* IOC Enrichment Playbook
+* MISP Threat Intelligence Integration
+* Malware Hash Automation
+* Threat Intelligence Enrichment
+* Investigation Automation
+* Python-Based Security Automation
 
 ---
 
-
-
-
-```
-```
-
-
-```
-```
