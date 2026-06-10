@@ -2,19 +2,20 @@
 
 ## Overview
 
-This section focuses on Security Orchestration, Automation, and Response (SOAR) concepts using threat intelligence, investigation workflows, and automated enrichment processes.
+This section focuses on Security Orchestration, Automation, and Response (SOAR) concepts through threat intelligence enrichment, phishing investigations, and ransomware incident response workflows.
 
-The objective is to reduce analyst workload, improve investigation speed, and standardize response procedures through automation.
+The objective is to reduce analyst workload, improve investigation speed, and standardize response procedures through automation and repeatable investigation methodologies.
 
 ---
 
 ## Objectives
 
-* Automate IOC enrichment workflows
-* Integrate threat intelligence into investigations
-* Standardize analyst response procedures
-* Simulate SOAR playbooks
-* Improve investigation efficiency
+* Automate security investigation workflows
+* Integrate threat intelligence into analyst investigations
+* Standardize incident response procedures
+* Simulate SOC and SOAR playbooks
+* Improve investigation efficiency through automation
+* Support threat hunting and incident response activities
 
 ---
 
@@ -22,7 +23,7 @@ The objective is to reduce analyst workload, improve investigation speed, and st
 
 ### 01 - IOC Enrichment Playbook
 
-Automated enrichment workflow for indicators of compromise (IOCs) using threat intelligence sources.
+Threat intelligence enrichment workflow for Indicators of Compromise (IOCs) using multiple intelligence sources and Python automation.
 
 Activities include:
 
@@ -30,64 +31,94 @@ Activities include:
 * MISP Enrichment
 * VirusTotal Validation
 * Hybrid Analysis Validation
-* Threat Actor Attribution
+* Threat Intelligence Correlation
+* Threat Actor Research
 * Python-Based Automation
+
+Skills Demonstrated:
+
+* Threat Intelligence
+* IOC Analysis
+* MISP Integration
+* Security Automation
+* Incident Triage
 
 ---
 
-### 02 - Malware Hash Enrichment
+### 02 - Enterprise Ransomware Investigation
 
-Automated malware hash investigation workflow.
+End-to-end ransomware investigation simulating a real-world Security Operations Center (SOC) incident response workflow.
 
-Planned activities:
+Environment:
 
-* Hash reputation lookup
-* Multi-source enrichment
-* Automated reporting
+Kali Linux
+↓
+Windows 7
+↓
+Sysmon
+↓
+Splunk
+↓
+TheHive
+↓
+MISP
+
+Investigation Activities:
+
+* Initial Access Analysis
+* Execution Analysis
+* Persistence Investigation
+* Discovery Activity Review
+* Impact Assessment
+* IOC Collection
+* Timeline Creation
+* Containment Actions
+* Lessons Learned
+
+Skills Demonstrated:
+
+* Incident Response
+* Threat Hunting
+* Digital Forensics
+* Detection Engineering
+* MITRE ATT&CK Mapping
+* Security Monitoring
 
 ---
 
 ### 03 - Phishing Triage
 
-Automated phishing investigation and response process.
+Automated phishing investigation and triage workflow designed to assist analysts with identifying malicious emails and prioritizing response actions.
 
-Planned activities:
+Activities include:
 
-* URL analysis
-* Domain reputation checks
-* IOC extraction
-* Response workflow automation
+* Email Review
+* IOC Extraction
+* URL Analysis
+* Domain Reputation Checks
+* Attachment Analysis
+* Risk Assessment
+* Analyst Decision Workflow
+* Investigation Automation
 
----
+Skills Demonstrated:
 
-### 04 - PowerShell Investigation
-
-Automated investigation workflow for suspicious PowerShell activity.
-
-Planned activities:
-
-* Event ID 4104 analysis
-* Script enrichment
-* Investigation automation
-
----
-
-### 05 - Threat Intelligence Workflow
-
-End-to-end threat intelligence enrichment and analyst decision workflow.
-
-Planned activities:
-
-* IOC correlation
-* MISP integration
-* Threat intelligence driven investigations
+* Email Security
+* Phishing Analysis
+* IOC Extraction
+* Threat Intelligence
+* Security Operations
+* Incident Triage
 
 ---
 
 ## Technologies Used
 
 * Python
+* Splunk
+* Sysmon
 * MISP
+* TheHive
 * VirusTotal
 * Hybrid Analysis
 * MITRE ATT&CK
@@ -98,6 +129,7 @@ Planned activities:
 
 ## Key Lesson
 
-> Effective SOAR workflows reduce analyst workload by automating repetitive enrichment and investigation tasks while maintaining consistent response procedures.
+Effective SOAR workflows reduce analyst workload by automating repetitive enrichment and investigation tasks while maintaining consistent response procedures.
 
-Security automation allows analysts to focus on investigation and decision-making rather than manual data collection.
+Security automation allows analysts to focus on investigation, threat hunting, and decision-making rather than manual data collection.
+
