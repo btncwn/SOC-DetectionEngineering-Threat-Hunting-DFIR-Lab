@@ -4,11 +4,8 @@
 
 # SOC Project Portfolio
 
-This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, and SOAR Automation lab environment.
+This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, and Ransomware Investigations & Phishing Analysis.
 
-# SOC Project Portfolio
-
-This portfolio documents the development of a complete SOC Detection Engineering, Threat Hunting, Incident Response, Threat Intelligence, and SOAR Automation lab environment.
 
 ## Repository Structure
 
@@ -173,16 +170,4 @@ Projects include:
 
 * [Threat Intelligence Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/06-threat-intelligence-workflow)
 
-Skills Demonstrated:
-
-* Incident Response
-* Ransomware Investigation
-* Phishing Analysis
-* Threat Intelligence
-* IOC Enrichment
-* Detection Engineering
-* Threat Hunting
-* Security Operations
-* MITRE ATT&CK Mapping
-* Investigation Automation
 
