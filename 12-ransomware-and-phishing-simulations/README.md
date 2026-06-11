@@ -1,21 +1,24 @@
-# SOAR and Security Automation
+# Ransomware and Phishing Simulations
 
 ## Overview
 
-This section focuses on Security Orchestration, Automation, and Response (SOAR) concepts through threat intelligence enrichment, phishing investigations, and ransomware incident response workflows.
+This section focuses on ransomware investigations, phishing analysis, threat intelligence enrichment, and security investigation workflows.
 
-The objective is to reduce analyst workload, improve investigation speed, and standardize response procedures through automation and repeatable investigation methodologies.
+The objective is to simulate real-world Security Operations Center (SOC), Threat Hunting, and Incident Response activities using repeatable investigation methodologies, threat intelligence, and security monitoring technologies.
+
+The projects demonstrate how security analysts investigate, detect, contain, and document security incidents across multiple attack scenarios.
 
 ---
 
 ## Objectives
 
-* Automate security investigation workflows
-* Integrate threat intelligence into analyst investigations
-* Standardize incident response procedures
-* Simulate SOC and SOAR playbooks
-* Improve investigation efficiency through automation
-* Support threat hunting and incident response activities
+* Simulate real-world cyber attacks and investigations
+* Develop incident response workflows
+* Improve threat hunting capabilities
+* Integrate threat intelligence into investigations
+* Standardize analyst investigation procedures
+* Practice ransomware and phishing response activities
+* Build practical SOC investigation experience
 
 ---
 
@@ -88,7 +91,7 @@ Skills Demonstrated:
 
 ### 03 - Phishing Triage
 
-Automated phishing investigation and triage workflow designed to assist analysts with identifying malicious emails and prioritizing response actions.
+Phishing investigation and triage workflow designed to assist analysts with identifying malicious emails and prioritizing response actions.
 
 Activities include:
 
@@ -99,7 +102,7 @@ Activities include:
 * Attachment Analysis
 * Risk Assessment
 * Analyst Decision Workflow
-* Investigation Automation
+* Investigation Documentation
 
 Skills Demonstrated:
 
@@ -123,13 +126,13 @@ Skills Demonstrated:
 * Hybrid Analysis
 * MITRE ATT&CK
 * Threat Intelligence Platforms
-* Security Automation Workflows
+* Windows Event Logging
+* Security Investigation Workflows
 
 ---
 
 ## Key Lesson
 
-Effective SOAR workflows reduce analyst workload by automating repetitive enrichment and investigation tasks while maintaining consistent response procedures.
+Successful security investigations require the correlation of endpoint telemetry, threat intelligence, attacker behavior, and analyst decision-making.
 
-Security automation allows analysts to focus on investigation, threat hunting, and decision-making rather than manual data collection.
-
+Ransomware and phishing investigations demonstrate how security teams identify malicious activity, assess impact, contain threats, and improve future detection and response capabilities.
