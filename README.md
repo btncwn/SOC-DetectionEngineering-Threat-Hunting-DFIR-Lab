@@ -4,13 +4,13 @@
 
 This repository documents an end-to-end Security Operations Center (SOC) lab built to simulate a realistic cyber attack lifecycle and demonstrate blue-team security operations.
 
-The project combines vulnerability management, attack simulation, endpoint telemetry collection, SIEM engineering, threat hunting, MITRE ATT&CK mapping, threat intelligence, to provide practical experience across multiple cybersecurity disciplines.
+The project combines vulnerability management, attack simulation, endpoint telemetry collection, SIEM engineering, threat hunting, MITRE ATT&CK mapping, threat intelligence, incident response investigations, ransomware simulations, and phishing analysis to provide practical experience across multiple cybersecurity disciplines.
 
 The lab was developed using real telemetry collected from a Windows 7 environment and analyzed through Splunk Enterprise.
 
 ## Key Achievements
 
-✅ Built an end-to-end SOC lab covering Telemetry → Detection → Threat Hunting → Incident Response → Threat Intelligence → SOAR Automation
+✅ Built an end-to-end SOC lab covering Telemetry → Detection → Threat Hunting → Incident Response → Threat Intelligence → Ransomware & Phishing Investigations
 
 ✅ Deployed and integrated Splunk Enterprise, Sysmon, MISP, Nessus, Docker, and Windows endpoints within a single security monitoring environment
 
@@ -20,13 +20,11 @@ The lab was developed using real telemetry collected from a Windows 7 environmen
 
 ✅ Performed Threat Intelligence investigations using MISP and IOC enrichment workflows
 
-✅ Conducted Incident Response investigations including persistence, lateral movement, command and control, and data exfiltration scenarios
+✅ Conducted Incident Response investigations including persistence, lateral movement, command and control, data exfiltration, ransomware, and phishing scenarios
 
-✅ Developed SOAR playbooks and security automation workflows using Python and threat intelligence enrichment processes
+✅ Developed ransomware investigation workflows, phishing triage procedures, IOC enrichment playbooks, and security automation processes using Python and threat intelligence platforms
 
 ✅ Produced 30+ technical project write-ups supported by 49+ screenshots, validation artefacts, and investigation evidence
-
-
 
 ## Project Journey
 
@@ -38,15 +36,11 @@ Successfully deployed and configured Sysmon and Splunk Universal Forwarder on le
 
 Conducted vulnerability assessments using Nessus Essentials, identified a critical MS17-010 (EternalBlue) exposure, validated the findings through SMB enumeration activities, and analyzed resulting telemetry through Splunk-based investigations.
 
-Developed structured threat hunting investigations covering malicious domains, malware hashes, suspicious PowerShell activity, attacker behaviour analysis, detection engineering, threat intelligence enrichment, and incident response workflows.
+Developed structured threat hunting investigations covering malicious domains, malware hashes, suspicious PowerShell activity, attacker behaviour analysis, detection engineering, threat intelligence enrichment, ransomware investigations, phishing triage workflows, and incident response procedures.
 
 The project demonstrates the ability to design, build, troubleshoot, document, and operate an end-to-end SOC environment using real telemetry and industry-standard security technologies.
 
-
-
-
 ## Lab Environment
-
 
 ### Attacker Infrastructure
 
@@ -76,16 +70,17 @@ The project demonstrates the ability to design, build, troubleshoot, document, a
 * MISP
 * IOC Management & Threat Intelligence Enrichment
 
-### Security Automation (SOAR)
+### Ransomware & Phishing Investigations
 
-* Shuffle SOAR
-* Automated Investigation & Response Workflows
+* Enterprise Ransomware Investigation
+* Phishing Triage Workflows
+* IOC Enrichment Playbooks
+* Investigation Automation Workflows
 
 ### Incident Response (IR)
 
 * Incident Response Playbooks
 * Endpoint Investigation Workflows
-
 
 ### Detection Engineering
 
@@ -96,9 +91,7 @@ The project demonstrates the ability to design, build, troubleshoot, document, a
 
 ---
 
-
 ## Technologies Used
-
 
 | Technology                     | Purpose                                                           |
 | ------------------------------ | ----------------------------------------------------------------- |
@@ -113,24 +106,35 @@ The project demonstrates the ability to design, build, troubleshoot, document, a
 | BOTSv3 Dataset                 | Detection Validation & Threat Hunting Exercises                   |
 | Sigma                          | Detection Engineering & Portable Detection Development            |
 | GitHub Pages                   | Cybersecurity Portfolio & Project Documentation                   |
-| SOAR Workflows                 | Security Automation & Playbook Development (In Progress)          
+| Investigation Workflows        | Ransomware Investigations, Phishing Triage & IOC Enrichment       |
 
 ## Repository Structure
 
 SOC-Detection-Engineering-Threat-Hunting-DFIR-Lab
-01-lab-architecture
-02-vulnerability-assessment
-03-attack-simulation
-04-endpoint-telemetry
-05-splunk-ingestion
-06-threat-hunting
-07-mitre-attack-mapping
-08-threat-intelligence
-09-incident response
-10-soc-investigations
-11-detection-engineering-sigma
-12-soar-automation
 
+01-lab-architecture
+
+02-vulnerability-assessment
+
+03-attack-simulation
+
+04-endpoint-telemetry
+
+05-splunk-ingestion
+
+06-threat-hunting
+
+07-mitre-attack-mapping
+
+08-threat-intelligence
+
+09-incident-response
+
+10-soc-investigations
+
+11-detection-engineering-sigma
+
+12-ransomware-and-phishing-simulations
 
 ## Project Highlights
 
@@ -181,7 +185,6 @@ Mapped Techniques Include:
 * T1059.003 – Windows Command Shell
 * T1210 – Exploitation of Remote Services
 
-
 ## Skills Demonstrated
 
 * Security Operations Center (SOC) Operations
@@ -199,11 +202,11 @@ Mapped Techniques Include:
 * Detection Validation & Tuning
 * Security Reporting & Documentation
 
-
-
-
 ## Future Enhancements
-* SOAR Playbook Development & Automation
+
+* Advanced Ransomware Investigation Scenarios
+* Business Email Compromise (BEC) Investigations
+* Automated Phishing Triage Workflows
 * Threat Intelligence Automated Enrichment Workflows
 * Advanced Sigma Detection Engineering Use Cases
 * Splunk Enterprise Security (ES) Use Cases
@@ -213,10 +216,8 @@ Mapped Techniques Include:
 * Elastic Security Detection & Threat Hunting Lab
 * Microsoft Sentinel Detection Engineering Lab
 
-
 ## Disclaimer
 
 This repository was created for cybersecurity education, portfolio development, detection engineering practice, and defensive security research.
 
 All testing was performed within authorized and isolated laboratory environments.
-
