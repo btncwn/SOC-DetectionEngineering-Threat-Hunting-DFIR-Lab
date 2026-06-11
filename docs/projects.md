@@ -155,13 +155,34 @@ Projects include:
 * [Threat Intelligence Driven Detection](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/11-detection-engineering-sigma/05-threat-intelligence-driven-detection)
 
 
-# 12 - SOAR Automation
+# 12 - Ransomware & Phishing Simulations
 
-Security Orchestration, Automation, and Response workflows designed to automate investigation and enrichment activities.
+Hands-on ransomware investigations, phishing analysis, IOC enrichment, and investigation workflows designed to simulate real-world Security Operations Center (SOC) and Incident Response activities.
+
 Projects include:
 
-* [IOC Enrichment Playbook](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-soar-automation/01-ioc-enrichment-playbook)
-* [Scheduled Task Investigation Playbook](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-soar-automation/03-scheduled-task-investigation-playbook)
-* [Phishing Triage Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-soar-automation/04-phishing-triage)
-* [PowerShell Investigation Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-soar-automation/05-powershell-investigation)
-* [Threat Intelligence Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-soar-automation/06-threat-intelligence-workflow)
+* [IOC Enrichment Playbook](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/01-ioc-enrichment-playbook)
+
+* [Enterprise Ransomware Investigation](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/02-enterprise-ransomware-investigation)
+
+* [Scheduled Task Investigation Playbook](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/03-scheduled-task-investigation-playbook)
+
+* [Phishing Triage Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/04-phishing-triage)
+
+* [PowerShell Investigation Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/05-powershell-investigation)
+
+* [Threat Intelligence Workflow](https://github.com/btncwn/SOC-IR-Threat-Hunting-Detection-Engineering-SOAR-Lab/tree/main/12-ransomware-and-phishing-simulations/06-threat-intelligence-workflow)
+
+Skills Demonstrated:
+
+* Incident Response
+* Ransomware Investigation
+* Phishing Analysis
+* Threat Intelligence
+* IOC Enrichment
+* Detection Engineering
+* Threat Hunting
+* Security Operations
+* MITRE ATT&CK Mapping
+* Investigation Automation
+
